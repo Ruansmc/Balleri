@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+  font-size: 100%;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.cabecalho-logo {
+  height: 72px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+  color: #fff2e7;
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.cabecalho-menu a:hover {
+  color: #e78535;
+}
+
+.titulo {
+  border-top: 0.4px solid #fff2e7;
+  display: flex;
+  flex-direction: column;
+  padding-right: 300px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px;
+  margin-bottom: 48px;
+}
+
+.titulo-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Righteous", sans-serif;
+  font-size: 64px;
+  line-height: normal;
+  color: #fff2e7;
+}
+
+.titulo-1-conteudo-1 {
+  display: flex;
+  justify-content: center;
+  padding-right: 400px;
+  flex-direction: column;
+  gap: 54px;
+}
+
+.titulo-1-conteudo-2 {
+  color: #ecd6c4;
+
+  font-family: "Sarala";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  color: #ecd6c4;
+}
+
+.botao {
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  width: 150px;
+  height: 50px;
+  border: none;
+  font-family: Sarala, sans-serif;
+  font-size: 16px;
+  color: black;
+  border-radius: 20px;
+  background-color: #ecd6c4;
+}
+
+.botao:hover {
+  color: #f3ede8;
+  font-size: large;
+  font-size: 16px;
+  background-color: #2f2325;
+  border-radius: 20px;
+}
+
+.segunda-parte {
+  align-items: center;
+  justify-content: end;
+  color: white;
+}
+
+.segunda-parte-titulo {
+  border-top: 1px solid rgb(113, 90, 90);
+  font-family: Sarala;
+  text-align: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.segunda-parte-paragrafo {
+  padding-bottom: 20px;
+  font-weight: 200;
+  font-family: Sarala;
+  color: #d6d0ce;
+}
+
+.segunda-parte-ii {
+  padding-top: 22px;
+  margin: 0 auto;
+}
+
+.imagem-logo {
+  display: flex;
+  justify-content: space-between;
+  height: 430px;
+}
+
+.inferior {
+  border-top: 1px solid transparent;
+  text-align: center;
+}
